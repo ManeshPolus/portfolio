@@ -4,118 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manesh M S</title>
-    <style>
-        /* Body Styles */
-        body {
-          background-color: #e0f2ff; /* Light blue background */
-          color: #243c55; /* Dark blue text for good contrast */
-          font-family: Arial, sans-serif; /* Readable font */
-          margin: 0; /* Remove default margin for better layout */
-        }
-    
-        /* Header Styles */
-        header {
-          background-color: #7f8c8d; /* Cool gray header background */
-          color: #fff; /* White text for headings */
-          padding: 30px; /* Add some padding for spacing */
-          
-        }
-    
-        h1 {
-          margin: 0; /* Remove default margin for better layout */
-          text-align: center;
-        }
-    
-        /* Navigation Link Styles */
-        header a {
-          color: inherit; /* Inherit white text color from header */
-          text-decoration: none; /* Remove underline */
-          margin-right: 20px; /* Add spacing between links */
-          font-weight: bold; /* Emphasize navigation links */
-          padding: 20px;
-        }
-    
-        header a:hover {
-          color: #4779a4; /* Teal hover color */
-          text-decoration: underline; /* Add underline on hover */
-        }
-    
-        /* Main Content Styles */
-        main {
-          padding: 20px;
-        }
-    
-        section {
-          margin-bottom: 20px; /* Add spacing between sections */
-        }
-    
-        h2 {
-          margin: 0; /* Remove default margin for better layout */
-          color: #333333; /* Darker cool color for headings */
-        }
-    
-        p, ul {
-          line-height: 1.5; /* Increase line spacing for readability */
-        }
-    
-        /* Contact Information Styles */
-        #contact p {
-          margin-bottom: 5px; /* Add spacing between contact details */
-        }
-    
-        /* Footer Styles */
-        footer {
-          background-color: #7f8c8d; /* Cool gray footer background */
-          color: #fff; /* White text for copyright */
-          text-align: center; /* Center copyright text */
-          padding: 10px; /* Add some padding for spacing */
-          margin-top: 20px; /* Add space between content and footer */
-          bottom: 0;
-          width: 100%;
-        }
-        div {
-             text-align: center;
-             padding: 10px;
-        }
-        @media screen and (max-width:500px) {
-
-            div {
-     text-align: left;
-     padding: 5px;
-     display: flex;
-     flex-direction: column ;
-}
-form {
-    display: flex;
-    flex-direction: column;
-}
-h1 {
-    text-align: left;
-}
-
-footer {
-        text-align: left;
-    }
-}
-    </style>
+    <link rel="stylesheet" href="D:\HTML\Portfolio\CssStyles.css">
 </head>
 <body>
     <header>
-        <h1 tabindex="1">Batman</h1>
+        <h1 id="ProjectHeader" tabindex="1">Batman</h1>
     </header>
 
     <main>
         
             <div>
-                <a tabindex="2" role="link" aria-label="Home page" href="D:\HTML\Portfolio\Portfolio.html">Home</a>    
-                <a tabindex="3" role="link" aria-label="Project page" href="D:\HTML\Portfolio\Project.html">Project</a>
-                <a tabindex="4" role="link" aria-label="Contact page" href="D:\HTML\Portfolio\Contact.html">Contact</a>               
+                <a id="LinkToHomePageInProject" tabindex="2" role="link" aria-label="Home page" href="D:\HTML\Portfolio\Portfolio.html">Home</a>    
+                <a id="LinkToHomePageInProject" tabindex="3" role="link" aria-label="Project page" href="D:\HTML\Portfolio\Project.html">Project</a>
+                <a id="LinkToHomePageInContact" tabindex="4" role="link" aria-label="Contact page" href="D:\HTML\Portfolio\Contact.html">Contact</a>               
             </div>
         
 
     <section tabindex="5">
-        <h2>Project</h2>
-        <ul>
+        <h2 id="Projects">Project</h2>
+        <ul id="ListOfProjects">
             <li>Automated fire grapple system</li>
             <li>Face detection and recognition</li>
             <li>Decrypting device</li>
